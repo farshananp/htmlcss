@@ -1,0 +1,114 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    background:#000;
+
+}
+
+.flag{
+
+    width:720px;
+
+}
+
+.saffron,
+
+.white,
+
+.green{
+
+    height:140px;
+
+}
+
+.saffron{
+
+    background:#FF9933;
+
+}
+
+.white{
+
+    background:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.green{
+
+    background:#138808;
+
+}
+
+.chakra{
+
+    width:140px;
+
+    height:140px;
+
+    border:3px solid navy;
+
+    border-radius:50%;
+
+    position:relative;
+
+}
+
+.center{
+
+    width:10px;
+
+    height:10px;
+
+    background:navy;
+
+    border-radius:50%;
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+}
+
+.spoke{
+
+    position:absolute;
+
+    width:2px;
+
+    height:69px;
+
+    background:navy;
+
+    top: 0px;;
+
+    left:50%;
+
+    transform-origin:bottom center;
+}

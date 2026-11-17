@@ -1,0 +1,20 @@
+.col{
+     height: 300px;
+    width: 250px;
+    border:2px solid black;
+    background-color: rgb(146, 25, 45);
+    /* position: absolute;
+    top: 30px; */
+    /* z-index: ; */
+    /* float: left;  */
+}
+.row{
+    background-color: antiquewhite;
+    height: 500px;
+    display: flex;
+    /* vertical spacing adjust */
+    align-items: center;
+    /* horizontal spacing of items */
+    justify-content: space-evenly;
+    flex-direction: column;
+}

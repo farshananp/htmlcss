@@ -1,0 +1,41 @@
+/* universal selector */
+*{
+    background-color: black;
+}
+/* tagname as selector */
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+#head{
+    color: blueviolet;
+}
+/* grouping selector */
+/* h1,h3{
+    color: brown;
+} */
+ /* id as selector */
+#head{
+    color: antiquewhite;
+}
+/* class as selector */
+grp{
+    background-color: beige;
+}
+/* descendent selector */
+div p{
+    color: brown;
+}
+/* child selector */
+div>h4{
+    text-decoration: underline;
+}
+/* sibling selector */
+h4~ul{
+    color: fuchsia;
+}
+/* immediate sibling */
+h4+ul{
+    background-color: rgb(240, 245, 220);
+}

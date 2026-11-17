@@ -1,0 +1,12 @@
+
+    *{
+        margin: 0;
+    }
+    #header{
+        text-align: center;
+        font-size: 34px;
+    }
+    #img{
+        position: relative;
+        margin-left: 200px;
+    }

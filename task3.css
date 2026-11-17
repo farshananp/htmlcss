@@ -1,0 +1,34 @@
+*{
+    background-color: rgb(188, 190, 187);
+    
+}
+
+h1{
+    color: black;
+    border: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: azure;
+    
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    
+}
+p{
+    font-style: oblique;
+    color: cadetblue;
+    font-size: medium;
+    background-color: beige;
+}
+a{
+    color: black;
+    
+}
+button{
+    color: bisque;
+    text-align: center;
+}

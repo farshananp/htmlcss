@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src="data:image/webp;base64,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" alt="" width="50px" height="50px">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <nav class="navbar navbar-expand-lg bg-dark"></nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/16859174/pexels-photo-16859174.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/32403277/pexels-photo-32403277.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/14356390/pexels-photo-14356390.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+    <div class="col">
+        <div class="col-md-4">
+        <div class="card shadow px-3" style="width: 18rem; background-color: black; ">
+      <img src="https://thfvnext.bing.com/th?id=OPAC.HGGJ%2bN%2fYx2S%2fMw474C474&w=474&h=474&qlt=100&o=5&dpr=1.3&pid=21.1" class="card-img-top" alt="img" height="250px" aria-colcount="img-thumbnail">
+      <div class="card-body text-center text-light">
+        <h5 class="card-title">PUMA Mostro Metal Sneakers In Black/Silver Size UK 7 <br>₹6,999</h5>
+        <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <a href="#" class="btn btn-primary">Buy now</a>
+        </div>
+    <div class="col-md-4">
+        <div class="card shadow px-3" style="width: 18rem; background-color: black;">
+      <img src="https://www.bing.com/th?id=OPAC.Gh8451LP53gqug474C474&o=5&pid=21.1&w=140&h=140&rs=1&qlt=100&dpr=1.3&o=2" class="card-img-top" alt="img" height="250px" aria-colcount="img-thumbnail">
+      <div class="card-body text-center text-light">
+        <h5 class="card-title">Palermo Leather Sneakers <br>₹6,999</h5>
+        <p class="card-text ">A fan favourite in the '80s, the Palermo was known for pops of</p>
+        <a href="#" class="btn btn-primary">Buy now</a>
+        </div>
+     <div class="col-md-4">
+        <div class="card shadow px-3" style="width: 18rem; background-color: black;">
+      <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/312060/07/sv01/fnd/IND/fmt/png/FAST-R-NITRO%E2%84%A2-Elite-3-Men's-Road-Running-Shoes" class="card-img-top" alt="img" height="250px" aria-colcount="img-thumbnail">
+      <div class="card-body text-center text-light">
+        <h5 class="card-title">FAST-R NITRO™ Elite 3 Men's Road Running Shoes <br>₹23,999</h5>
+        <p class="card-text ">PRODUCT STORY
+    These FAST-R NITRO™ Elite 3 Running shoes will help you push</p>
+        <a href="#" class="btn btn-primary">Buy now</a>
+        </div>
+      </div>
+    </div>
+    </div>
+</body>
+</html>

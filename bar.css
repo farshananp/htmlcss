@@ -1,0 +1,25 @@
+#bar{
+    display: flex;
+    justify-content:  space-between;
+    position: relative;
+}
+.base-bar{
+    height: .6rem;
+    width: 100%;
+    background-color: black;
+    border-radius: .5rem;
+    position: absolute;
+    bottom: 0px;
+}
+#html-bar{
+    background-color: green;
+    width: 90%;
+}
+#css-bar{
+    background-color: green;
+    width: 80%;
+}
+#bootstrap-bar{
+    background-color: green;
+    width: 75%;
+}
